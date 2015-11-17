@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:showIn="@layout/activity_main"
-    tools:context=".MainActivity"
-    android:orientation="vertical"
     android:gravity="center"
-    android:id="@+id/container">
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:layout_marginTop="15dp"
         android:layout_marginBottom="30dp"
-        android:text="@string/app_title"/>
+        android:layout_marginTop="15dp"
+        android:text="@string/app_title"
+        android:textSize="25sp" />
 
     <Button
         android:id="@+id/popular_movies_button"
-        android:text="@string/popular_movies"
-        style="@style/button_apps"/>
+        style="@style/button_apps"
+        android:text="@string/popular_movies" />
 
     <Button
         android:id="@+id/library_button"
-        android:text="@string/alexandria_library"
-        style="@style/button_apps"/>
+        style="@style/button_apps"
+        android:text="@string/alexandria_library" />
 
     <Button
         android:id="@+id/football_scores_button"
-        android:text="@string/football_scores"
-        style="@style/button_apps"/>
+        style="@style/button_apps"
+        android:text="@string/football_scores" />
 
     <Button
         android:id="@+id/build_it_bigger_button"
-        android:text="@string/build_it_bigger"
-        style="@style/button_apps"/>
+        style="@style/button_apps"
+        android:text="@string/build_it_bigger" />
 
     <Button
         android:id="@+id/xyz_reader_button"
-        android:text="@string/xyz_reader"
-        style="@style/button_apps"/>
+        style="@style/button_apps"
+        android:text="@string/xyz_reader" />
 
     <Button
         android:id="@+id/capstone_button"
-        android:text="@string/capstone"
         style="@style/button_apps"
-        android:background="@color/colorButtonCapstone"/>
+        android:background="@color/colorButtonCapstone"
+        android:text="@string/capstone" />
 
 </LinearLayout>

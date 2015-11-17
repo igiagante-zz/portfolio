@@ -1,7 +1,7 @@
 <resources>>
     <string name="app_name">Portfolio</string>
     <string name="action_settings">Settings</string>
-    
+
     <!-- values for apps buttons -->
     <string name="popular_movies">Popular Movies</string>
     <string name="alexandria_library">Library</string>
@@ -10,6 +10,8 @@
     <string name="xyz_reader">XYZ Reader</string>
     <string name="capstone">Capstone</string>
     <string name="app_title">My Nanodegree apps!</string>
+
+    <!-- message's button wrapper -->
     <string name="message_button">This button will launch my </string>
     <string name="message_end_button"> app!</string>
 </resources>
